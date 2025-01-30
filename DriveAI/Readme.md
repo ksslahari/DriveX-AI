@@ -1,0 +1,17 @@
+Steps to create the development environment :
+1.Create the environment and install all the required softwares to do Python,work with Node.js,download Git and Virtual Studio.
+2. Setup the backend
+   a. Install all the dependencies.
+      Open VsCode and run 
+      pip install fastapi uvicorn pandas openpyxl python-multipart openai
+   b. Create a folder and name it as main.py
+   c. Run the command using the following code.
+      uvicorn main:app --reload
+   d. Your application(server) will be running in http://localhost:8000/docs
+      #http protocol runs on port 8000
+3.Create the front end 
+  a. Create Next.js app 
+  b. Replace the content in index.js 
+  c. Run the front end 
+     npm run dev
+  d. Your application runs on http://localhost:3000
